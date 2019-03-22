@@ -14,6 +14,7 @@ function displayResults(responseJson) {
   // if there are previous results, remove them
   $('#results-list').empty();
   // iterate through the data array
+  console.log(responseJson);
   for (let i = 0; i < responseJson.data.length; i++) {
     // for each park object in the data 
     //array, add a list item to the results 
